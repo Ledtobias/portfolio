@@ -11,13 +11,17 @@
  		<!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
  		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
  		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
- 		<link rel="stylesheet" type="text/css" href=" ">
+ 		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
  	</head>
  	<body>
-    <img src="{{site.baseurl}}/img/logo.svg" alt="Logo" class="logo"></img>
-
-    {{content}}
-
-  <script type="text/javascript" src=" "></script>
+      <header>
+        {% include logo.html %}
+      </header>
+      {{content}}
+      <footer>
+        {% include logo.html %}
+      </footer>
+  <script type="text/javascript" src="{{site.baseurl}}/js/jquery-1.12.1.min"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/js/function.js"></script>
   </body>
  </html>
