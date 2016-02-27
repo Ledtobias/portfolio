@@ -1,0 +1,14 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  background-color: green;
+  height: 500px;
+}
+.post_title {
+  font-family: 'Brandon Text Medium';
+  font-weight: medium;
+  font-size: 30px
+}

@@ -2,5 +2,11 @@
 layout: default
 ---
 
-<h1>Hello there</h1>
-dfgbsdfbgsfbgsrgbtws
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="" class="post_title">{{post.title}}</a>
+      <p></p>
+    </li>
+  {% endfor %}
+</ul>
