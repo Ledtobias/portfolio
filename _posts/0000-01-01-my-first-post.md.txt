@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first post
+title: UI Concept + Design yosell.io
 number: N°1
 category: Concept
 ---

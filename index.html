@@ -4,9 +4,11 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="" class="post_title">{{post.title}}</a>
-      <p></p>
+    <li class="post">
+      <div class="post_title">
+        <p>{{post.number}}</p>
+        <h1>{{post.title}}</h1>
+      </div>
     </li>
   {% endfor %}
 </ul>

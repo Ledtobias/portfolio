@@ -1,7 +1,8 @@
 html {
   margin: 0;
   padding: 0;
-  font: normal 100%/1.4 Georgia,serif;
+  font: normal 100%/1.4 'Brandon Text';
+  color: #2c2f7b;
 }
 body {
   max-width: 900px;
