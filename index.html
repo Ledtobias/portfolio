@@ -4,7 +4,7 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-    <li class="post">
+    <li class="post" style="background-image: url({{site.baseurl}}/img/posts/{{post.folder}}/{{post.image}})">
       <div class="post_title">
         <p>{{post.category}}</p>
         <h1>{{post.title}}</h1>
