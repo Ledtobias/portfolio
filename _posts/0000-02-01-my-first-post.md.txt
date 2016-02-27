@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Concept App World
-number: N°2
 category: Concept
 image: 0000-02-01-01.jpg
 ---

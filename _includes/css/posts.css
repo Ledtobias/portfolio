@@ -10,9 +10,12 @@ li {
   padding-top: 40px;
 }
 .post {
+  margin-left: -40px;
   background-color: green;
   height: 500px;
   background-image: url('{{site.baseurl}}/img/posts/{{post.image}}');
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 .post_title {
   margin: 0 0 0 -20px;
@@ -23,11 +26,9 @@ li h1 {
   font-family: 'Brandon Text';
   font-weight: 100;
   font-size: 26px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 li p {
   margin: 0;
-  font-size: 1em;
+  font-size: 14px;
   opacity: 0.3;
 }
