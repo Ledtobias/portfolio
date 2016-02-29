@@ -7,28 +7,28 @@ ul {
 }
 li {
   margin: 0;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .post {
   margin-left: -40px;
   background-color: green;
-  height: 460px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  height: 480px;
+  text-transform: lowercase;
+  letter-spacing: 0.8em;
   cursor:pointer;
+  text-align: right;
 }
 .post img{
   repeat: no-repeat;
 }
 .post_title {
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 -52px;
 }
 li h1 {
   margin: 0;
-  width: 400px;
-  font-family: 'Brandon Text';
-  font-weight: 100;
-  font-size: 26px;
+  width: 260px;
+  font-size: 38px;
+  font-weight: 500;
 }
 li p {
   margin: 0;
